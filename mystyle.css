@@ -1,0 +1,51 @@
+body {
+    background-color: #DDA0DD;
+    font-family: "Cursive", times-new-roman;
+}
+
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    float: left;
+}
+
+img {
+    max-width:50%;
+    height:auto;
+    display: block;
+    border-radius: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span {
+    border: 2px solid black;
+    padding:  0em 1em;
+    border-radius: 10px;
+    font-family: times-new-roman;
+    font-size: 16px;
+    line-height: 1;
+    color: #696969;
+    background-color: #ADD8E6;
+}
+
+a {
+    text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+  color: ##FF00FF;
+}
+
+.centered {
+  text-align: center;
+}
